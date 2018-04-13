@@ -4,11 +4,11 @@ import face_recognition as fr
 from twilio.rest import Client
 from VoiceIt import *
 
-myVoiceIt = VoiceIt("b815868a54f04d40a5af9bb6afebbc50")
+myVoiceIt = VoiceIt("")
 # Your Account SID from twilio.com/console
-account_sid = "AC8289770611359e599dd1e3c3fdc424f3"
+account_sid = ""
 # Your Auth Token from twilio.com/console
-auth_token  = "0f2a39dff4d0893e90349d4a2b490d91"
+auth_token  = ""
 client = Client(account_sid, auth_token)
 first_frame =None
 status_list=[None,None]
