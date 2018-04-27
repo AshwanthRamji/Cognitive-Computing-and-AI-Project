@@ -15,11 +15,11 @@ import pyttsx
 import wave
 
 ##VoiceIt developer ID
-myVoiceIt = VoiceIt("b815868a54f04d40a5af9bb6afebbc50")
+myVoiceIt = VoiceIt("")
 # Your Account SID from twilio.com/console
-account_sid = "AC507bd973300ff042d63be3ddad4090a1"
+account_sid = ""
 # Your Auth Token from twilio.com/console
-auth_token  = "8200f0fb5e35ebe14c94504fea203850"
+auth_token  = ""
 clients = Client(account_sid, auth_token)
 first_frame =None
 status_list=[None,None]
